@@ -32,46 +32,6 @@
       <pos x="-200" y="-360"/>
     </visualElement>
     <visualElement>
-      <elementName>PC.dig</elementName>
-      <elementAttributes/>
-      <pos x="80" y="-520"/>
-    </visualElement>
-    <visualElement>
-      <elementName>RegisterA.dig</elementName>
-      <elementAttributes/>
-      <pos x="60" y="-320"/>
-    </visualElement>
-    <visualElement>
-      <elementName>RegisterB.dig</elementName>
-      <elementAttributes/>
-      <pos x="180" y="-280"/>
-    </visualElement>
-    <visualElement>
-      <elementName>FLAG.dig</elementName>
-      <elementAttributes/>
-      <pos x="-40" y="20"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Control.dig</elementName>
-      <elementAttributes/>
-      <pos x="-160" y="-260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>CC.dig</elementName>
-      <elementAttributes/>
-      <pos x="-280" y="-260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>IR.dig</elementName>
-      <elementAttributes/>
-      <pos x="120" y="180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>MAR.dig</elementName>
-      <elementAttributes/>
-      <pos x="200" y="-20"/>
-    </visualElement>
-    <visualElement>
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
@@ -359,9 +319,49 @@
       <pos x="240" y="200"/>
     </visualElement>
     <visualElement>
-      <elementName>ALU.dig</elementName>
+      <elementName>Control_git.dig</elementName>
+      <elementAttributes/>
+      <pos x="-160" y="-260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>CC_git.dig</elementName>
+      <elementAttributes/>
+      <pos x="-280" y="-260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ALU_git.dig</elementName>
       <elementAttributes/>
       <pos x="360" y="-500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>FLAG_git.dig</elementName>
+      <elementAttributes/>
+      <pos x="-40" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>IR_git.dig</elementName>
+      <elementAttributes/>
+      <pos x="120" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>MAR_git.dig</elementName>
+      <elementAttributes/>
+      <pos x="200" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PC_git.dig</elementName>
+      <elementAttributes/>
+      <pos x="80" y="-500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RegisterA_git.dig</elementName>
+      <elementAttributes/>
+      <pos x="60" y="-320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RegisterB_git.dig</elementName>
+      <elementAttributes/>
+      <pos x="180" y="-280"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -674,6 +674,10 @@
       <p2 x="560" y="-480"/>
     </wire>
     <wire>
+      <p1 x="20" y="-480"/>
+      <p2 x="80" y="-480"/>
+    </wire>
+    <wire>
       <p1 x="160" y="-480"/>
       <p2 x="180" y="-480"/>
     </wire>
@@ -804,10 +808,6 @@
     <wire>
       <p1 x="320" y="-500"/>
       <p2 x="360" y="-500"/>
-    </wire>
-    <wire>
-      <p1 x="20" y="-500"/>
-      <p2 x="80" y="-500"/>
     </wire>
     <wire>
       <p1 x="420" y="-500"/>
@@ -995,6 +995,10 @@
     </wire>
     <wire>
       <p1 x="20" y="-500"/>
+      <p2 x="20" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="20" y="-480"/>
       <p2 x="20" y="-340"/>
     </wire>
     <wire>
