@@ -18,7 +18,7 @@ A large limitation of my particular design (which I am currently working to impr
 
 Currently, this is the program loaded into the ROM (limited RAM) module:
 
-<img src="Images/RAM.png">
+<img src="Images/Current_RAM.png">
 
 Which is a replicate of the following pseudocode: 
 
