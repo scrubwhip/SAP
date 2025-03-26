@@ -1,7 +1,13 @@
 # SAP
 A Simple-As-Possible computer design using digital logic
 
+### Circuit:
+
 <img src="Images/SAP.png">
+
+### Schematic Diagram:
+
+<img src="Images/Schematic.jpg">
 
 ## Introduction to SAP ##
 
