@@ -40,11 +40,13 @@ I encourage anyone who uses the computer or manipulates it in any way to underst
 
 The RAM module is has 4 address bits and and 8 data bits, which represent the machine instructions and other volatile memory. To edit your instructions before running, open the RAM module and enter your program into the associated ROM module, starting at address 0. At the beginning of the simulation, your program will be automatically loaded into main memory via a counting circuit and clock with a frequency of 100Hz. When the simulation begins, the loading step will be completed before the first clock cycle only if the processor has a frequency of less than 100Hz. 
 
+<img src="Images/RAM.png">
+
 After loading, the RAM will accept a 4-bit address input from the memory address register and an 8-bit data input from register A. It can write to the BUS when the RO control bit is high and store the data in A when the RI control bit is high.
 
 Currently, this is the program loaded into the RAM module:
 
-<img src="Images/Current_RAM.png">
+<img src="Images/Current_Program.png">
 
 Which is a replicate of the following pseudocode: 
 
