@@ -18,9 +18,7 @@ A SAP computer has very few instructions due to its limited RAM capacity, but it
 
 Programs using these 16 or fewer of these instructions combined with constant data can be manually loaded into the RAM module with the clock enabled to simulate the computer running it. 
 
-## RAM Limitations
-
-A large limitation of my particular design (which I am currently working to improve) is the RAM module, which is currently represented by a ROM module. This implies that the STA operation cannot be completed, though its corresponding microinstructions in the control unit are nonetheless correct for an implemented 4-bit RAM with 16 addresses and 8-bit block size. 
+## RAM Program
 
 Currently, this is the program loaded into the ROM (limited RAM) module:
 
