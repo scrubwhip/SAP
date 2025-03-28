@@ -7,7 +7,7 @@ SAP is an 8-bit computer architecture designed by Ben Eater. Note that this proj
 
 ### Circuit:
 
-<img src="Images/Sap.png">
+<img src="Images/SAP.png">
 
 ### Schematic Diagram:
 
