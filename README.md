@@ -3,7 +3,7 @@ A Simple-As-Possible computer design using digital logic
 
 ### Circuit:
 
-<img src="Images/SAP.png">
+<img src="Images/Sap.png">
 
 ### Schematic Diagram:
 
