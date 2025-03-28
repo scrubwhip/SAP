@@ -38,11 +38,11 @@ I encourage anyone who uses the computer or manipulates it in any way to underst
 
 ### RAM
 
-The RAM module is has 4 address bits and and 8 data bits. At load time, you must manually load your program instructions from the ROM module into main memory via the LT input. Before running, enter your program into the associated 128-bit ROM module, starting at address 0. When you begin the simulation, simply activate the LT input and wait for the 4-bit counting circuit to load each individual instruction into RAM. This should only take a second or two, and it is essential that the clock attached to the RAM runs two cycles for each one cycle of the clock attached to the counter.
+The RAM module is has 4 address bits and and 8 data bits, which represent the machine instructions and other volatile memory. To edit your instructions before running, open the RAM module and enter your program into the associated ROM module, starting at address 0. At the beginning of the simulation, your program will be automatically loaded into main memory via a counting circuit and clock with a frequency of 100Hz. When the simulation begins, the loading step will be completed before the first clock cycle only if the processor has a frequency of less than 100Hz. 
 
-When it is not load time, the RAM will accept a 4-bit address input from the memory address register and an 8-bit data input from register A. It can write to the BUS when the RO control bit is high and store the data in A when the RI control bit is high.
+After loading, the RAM will accept a 4-bit address input from the memory address register and an 8-bit data input from register A. It can write to the BUS when the RO control bit is high and store the data in A when the RI control bit is high.
 
-Currently, this is the program loaded into the ROM (limited RAM) module:
+Currently, this is the program loaded into the RAM module:
 
 <img src="Images/Current_RAM.png">
 
